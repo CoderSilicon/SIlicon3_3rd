@@ -1,6 +1,5 @@
 import ScaleLoader from "react-spinners/ScaleLoader";
 import { useState, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
 import FirstPage from "./components/FirstPage";
 
 import Nav from "./components/ui/Nav";
@@ -10,7 +9,7 @@ import ThirdPage from "./components/ThirdPage";
 import FourthPage from "./components/FourthPage";
 import FifthPage from "./components/FifthPage";
 import SixthPage from "./components/SixthPage";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import LastGreet from "./components/lastGreet";
 
 const App = () => {
