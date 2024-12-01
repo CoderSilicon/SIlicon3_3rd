@@ -38,7 +38,7 @@ const FirstPage = () => {
 
   return (
     <section className="Poppins-regular relative z-10 min-h-screen flex flex-col items-center justify-center text-white lg:mx-0 mx-6 sm:mx-4">
-      <div className="p-8 sm:p-16 max-w-full mx-auto">
+      <div className="p-8 sm:p-16 max-w-full mx-auto my-64 ">
         {/* Main content */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -74,7 +74,7 @@ const FirstPage = () => {
               animate="visible"
             >
               <GlassBox>
-                <p className="text-xl leading-7 text-[#E2E8F0]">
+                <p className="lg:text-xl text-sm leading-7 text-[#E2E8F0]">
                   {firstPageParagraph}
                 </p>
               </GlassBox>
