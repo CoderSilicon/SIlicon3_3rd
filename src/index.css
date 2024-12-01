@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  font-family: Poppins,"sans-serif";
+  font-optical-sizing: auto;
+  color: #fff;
+  scroll-behavior: smooth;
+  background: #000000;
+}
+
+
+.links{
+  scroll-margin-top: 80px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Black background for the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a3b1c6; /* Light thumb color */
+  border-radius: 10px;
+  border: 3px solid #000000; /* Match the track color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a9bb8; /* Slightly darker thumb color on hover */
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #a3b1c6 #000000; /* Thumb color and track color for Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Black background for the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a3b1c6; /* Light thumb color */
+  border-radius: 10px;
+  border: 3px solid #000000; /* Match the track color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a9bb8; /* Slightly darker thumb color on hover */
+  transition: background 0.3s ease;
+}
