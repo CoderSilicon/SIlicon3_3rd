@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+      "prebuild": "chmod +x ./node_modules/.bin/vite"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
@@ -55,4 +56,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+
+  
 }
