@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import FirstPage from "./components/FirstPage";
 
-import Nav from "./components/UI/Nav";
+import Nav from "./components/ui/Nav";
 import "./App.css";
 import SecondPage from "./components/SecondPage";
 import ThirdPage from "./components/ThirdPage";
