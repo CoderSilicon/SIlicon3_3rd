@@ -83,12 +83,6 @@ const FirstPage = () => {
 
           {/* Contact Button */}
           <div className="flex justify-center items-center gap-4 sm:gap-6">
-            <a
-              href="#contact"
-              className="bg-none lg:hover:bg-[#38B2AC] bg-[#319b96] text-[#fff] py-4 px-8 text-xl rounded-2xl flex items-center cursor-pointer gap-1 "
-            >
-              Contact Me
-            </a>
             <div className="flex items-center justify-between">
               <div className="flex items-center justify-between gap-1 mt-2">
                 {[

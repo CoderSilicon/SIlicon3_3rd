@@ -1,4 +1,4 @@
-export const firstPageParagraph = ` I don’t just write code, I build experiences. 🚀 From crafting sleek web apps to optimizing algorithms in Python, C/C++, and JavaScript, I turn complex problems into elegant, functional solutions. Code isn’t just logic—it’s creativity in motion. 💻 Every challenge is an opportunity to innovate and push the limits of what's possible. 🔥 Let’s shape the future together. ✨`;
+export const firstPageParagraph = `Crafting experiences through code 🚀—from sleek web apps to optimized algorithms in Python, C++, and JavaScript. For me, code is creativity in motion 💻, turning challenges into elegant solutions. Let's innovate and shape the future together! ✨`;
 
 export const secondPageParagraph = `I'm a 14-year-old Indian developer 🇮🇳, driven by tech passion and curiosity. My coding journey began in 5th grade, guided by my uncle. Since then, I've built a diverse skill set.
 
