@@ -4,7 +4,14 @@ import gsap from "gsap";
 import { CSSPlugin } from "gsap/all";
 import { motion } from "framer-motion"; // Import Framer Motion
 import { firstPageParagraph } from "../Constant";
-import { FaGithub, FaLinkedin, FaTwitter, FaArrowRight } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaCodepen,
+  FaDev,
+  FaStackOverflow,
+} from "react-icons/fa";
 
 gsap.registerPlugin(CSSPlugin);
 
@@ -86,18 +93,42 @@ const FirstPage = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center justify-between gap-1 mt-2">
                 {[
-                  { icon: FaGithub, label: "GitHub", href: "#" },
-                  { icon: FaLinkedin, label: "LinkedIn", href: "#" },
-                  { icon: FaTwitter, label: "Twitter", href: "#" },
+                  {
+                    icon: FaGithub,
+                    label: "GitHub",
+                    href: "https://github.com/SiliconGit",
+                  },
+                  {
+                    icon: FaTwitter,
+                    label: "X",
+                    href: "https://x.com/CoderSilicon",
+                  },
+                  {
+                    icon: FaCodepen,
+                    label: "CodePen",
+                    href: "https://codepen.io/codersilicon",
+                  },
+                  {
+                    icon: FaDev,
+                    label: "Dev Community",
+                    href: "https://dev.to/codersilicon",
+                  },
+                  {
+                    icon: FaStackOverflow,
+                    label: "Stack Overflow",
+                    href: "https://https://stackoverflow.com/users/28206480/codersilicon",
+                  },
                 ].map((social) => (
-                  <button
+                  <a
                     key={social.label}
                     aria-label={social.label}
                     href={social.href}
-                    className="bg-none border-none text-4xl lg:hover:text-5xl transition-all sm:text-5xl mx-2  text-[#6c757d] cursor-pointer lg:hover:text-slate-100 "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-none border-none text-4xl lg:hover:text-5xl transition-all sm:text-5xl mx-2 text-[#6c757d] cursor-pointer lg:hover:text-slate-100"
                   >
                     <social.icon />
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>
