@@ -100,7 +100,7 @@ const FirstPage = () => {
                     key={social.label}
                     aria-label={social.label}
                     href={social.href}
-                    className="bg-none border-none lg:text-4xl lg:hover:text-5xl transition-all sm:text-5xl mx-2  text-[#6c757d] cursor-pointer text-2xl lg:hover:text-slate-100 "
+                    className="bg-none border-none text-4xl lg:hover:text-5xl transition-all sm:text-5xl mx-2  text-[#6c757d] cursor-pointer lg:hover:text-slate-100 "
                   >
                     <social.icon />
                   </button>
