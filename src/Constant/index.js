@@ -1,12 +1,12 @@
 export const firstPageParagraph = `Crafting experiences through code 🚀—from sleek web apps to optimized algorithms in Python, C++, and JavaScript. For me, code is creativity in motion 💻, turning challenges into elegant solutions. Let's innovate and shape the future together! ✨`;
 
-export const secondPageParagraph = `I'm a 14-year-old Indian developer 🇮🇳, driven by tech passion and curiosity. My coding journey began in 5th grade, guided by my uncle. Since then, I've built a diverse skill set.
+export const secondPageParagraph = `
+  "I'm a <span class='text-emerald-500 font-bold'>14-year-old Indian developer</span> 🇮🇳, driven by an insatiable <span class='text-emerald-500 font-bold'>curiosity for tech</span>. My journey began in 5th grade with my uncle’s guidance, sparking a passion that keeps growing.
 
-Started with HTML & CSS 🎨, leveled up with Sass, then dove into JavaScript and TypeScript 🛡️. React brought modular magic 🚀, and Next.js boosted performance 🌐. 
+  From <span class='text-emerald-500 font-bold'>HTML & CSS 🎨</span> to JavaScript, TypeScript 🛡️, React 🚀, and Next.js 🌐, I’ve explored the art of building and optimizing. Mastering <span class='text-emerald-500 font-bold'>C, C++, and Python 🖥️</span> has honed my skills in low-level programming, object-oriented design, and quick problem-solving.
 
-Mastered C, C++, and Python 🖥️—C for low-level skills, C++ for object-oriented concepts, and Python for quick, versatile coding.
-
-For me, programming isn’t just coding; it’s creating, solving problems, and pushing boundaries 💡. At 14, my journey has just begun, and I’m excited for what’s next 🌍.`;
+  For me, coding is <span class='text-emerald-500 font-bold'>discovery, creation, and endless possibilities 💡</span>. The journey has just begun, and I can't wait for what lies ahead 🌍."
+`;
 
 // constant.js or inside the component
 

@@ -13,8 +13,6 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 
-gsap.registerPlugin(CSSPlugin);
-
 const FirstPage = () => {
   const [typeEffect] = useTypewriter({
     words: [
@@ -81,7 +79,10 @@ const FirstPage = () => {
               animate="visible"
             >
               <GlassBox>
-                <p className="lg:text-xl text-sm leading-7 text-[#E2E8F0]">
+                <p
+                  className="text-lg leading-relaxed space-y-4 text-slate-50"
+                  dangerouslySetInnerHTML={{ __html: secondPageParagraph }}
+                >
                   {firstPageParagraph}
                 </p>
               </GlassBox>
