@@ -105,9 +105,7 @@ const SecondPage = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-2xl font-semibold mb-4">Bio</h2>
-              <p className="text-gray-300 leading-relaxed">
-                {secondPageParagraph}
-              </p>
+              <p>{secondPageParagraph}</p>
             </motion.div>
 
             {/* Skills Section */}

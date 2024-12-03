@@ -79,10 +79,7 @@ const FirstPage = () => {
               animate="visible"
             >
               <GlassBox>
-                <p
-                  className="text-lg leading-relaxed space-y-4 text-slate-50"
-                  dangerouslySetInnerHTML={{ __html: secondPageParagraph }}
-                >
+                <p className="lg:text-xl text-sm leading-7 text-[#E2E8F0]">
                   {firstPageParagraph}
                 </p>
               </GlassBox>
