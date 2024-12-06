@@ -71,7 +71,7 @@ const SecondPage = () => {
               <img
                 src={img}
                 alt="Profile"
-                className="w-full h-full object-cover rounded-3xl shadow-2xl  shadow-teal-400/20"
+                className="w-full h-full object-cover rounded-3xl shadow-xl  shadow-teal-400/20"
               />
             </motion.div>
 
