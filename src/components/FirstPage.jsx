@@ -43,7 +43,7 @@ const FirstPage = () => {
 
   return (
     <section className="Poppins-regular relative z-10 min-h-screen flex flex-col items-center justify-center text-white lg:mx-0 mx-6 sm:mx-4">
-      <div className="p-8 sm:p-16 max-w-full mx-auto my-64 ">
+      <div className="p-8 sm:p-16 max-w-full mx-auto  ">
         {/* Main content */}
         <motion.div
           initial={{ opacity: 0 }}
