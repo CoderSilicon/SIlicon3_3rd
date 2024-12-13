@@ -50,8 +50,8 @@ const SixthPage = () => {
   };
 
   return (
-    <div
-      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 transition-all"
+    <section
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8  transition-all"
       id="contact"
     >
       <motion.div
@@ -183,7 +183,7 @@ const SixthPage = () => {
           </motion.div>
         )}
       </motion.div>
-    </div>
+    </section>
   );
 };
 

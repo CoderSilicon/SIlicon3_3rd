@@ -10,7 +10,7 @@ const Nav = () => {
   const navItems = [
     { name: "Home", href: "#" },
     { name: "About", href: "#about" },
-    { name: "Skils", href: "#skills" },
+    { name: "Skills", href: "#skills" },
     { name: "Languages", href: "#lang" },
     { name: "Projects", href: "#proj" },
   ];
@@ -42,7 +42,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:py-6 josefin-slab">
+    <nav className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:py-6 text-center josefin-sans">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center backdrop-blur-lg bg-black/30 rounded-l-3xl rounded-r-3xl px-6 py-3 shadow-lg border border-white/10">
           <a
