@@ -29,7 +29,7 @@ const FourthPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Languages
+              Spoken & Prog. Langs
             </motion.h1>
             <motion.div
               className="h-1 w-16 lg:w-20 bg-[#38B2AC]"
