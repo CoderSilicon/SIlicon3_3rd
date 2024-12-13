@@ -24,7 +24,7 @@ const FourthPage = () => {
         <section className="px-6 py-6 md:py-16 text-gray-100">
           <div className="flex justify-center items-center flex-col mb-8">
             <motion.h1
-              className="text-3xl sm:text-4xl lg:text-6xl font-medium tracking-tight mb-4 josefin-sans "
+              className="text-3xl sm:text-4xl lg:text-6xl font-medium tracking-tight mb-4 josefin-sanss"
               initial={{ opacity: 0, y: -50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}

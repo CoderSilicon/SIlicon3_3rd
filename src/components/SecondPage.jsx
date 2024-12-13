@@ -42,11 +42,11 @@ const SecondPage = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.h1 className="josefin-sans text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4 bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
+          <motion.h1 className="josefin-sans text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4 text-white">
             About Me
           </motion.h1>
           <motion.div
-            className="h-1 w-20 bg-gradient-to-r from-teal-400 to-blue-500"
+            className="h-1 w-20 bg-gradient-to-r from-teal-400 to-emerald-800"
             initial={{ width: 0 }}
             whileInView={{ width: "5rem" }}
             transition={{ duration: 1 }}

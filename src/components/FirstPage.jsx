@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion"; // Import Framer Motion
+import { firstPageParagraph } from "../Constant";
 import {
   FaGithub,
   FaLinkedin,
@@ -77,9 +78,7 @@ const FirstPage = () => {
             >
               <GlassBox>
                 <p className="text-xs sm:text-sm lg:text-base leading-5 sm:leading-6 text-[#E2E8F0]">
-                  {
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                  }
+                  {firstPageParagraph}
                 </p>
               </GlassBox>
             </motion.div>
