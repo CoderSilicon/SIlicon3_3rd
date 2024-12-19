@@ -120,7 +120,7 @@ const FirstPage = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl sm:text-3xl lg:text-4xl transition-all text-[#6c757d] hover:text-slate-100"
+                className="text-xl sm:text-3xl lg:text-4xl transition-all mx-2 text-[#6c757d] hover:text-slate-100"
               >
                 <social.icon />
               </a>

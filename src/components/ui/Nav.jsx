@@ -11,7 +11,7 @@ const Nav = () => {
     { name: "Home", href: "#" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Languages", href: "#lang" },
+    { name: "Tools", href: "#lang" },
     { name: "Projects", href: "#proj" },
   ];
 
@@ -44,10 +44,10 @@ const Nav = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:py-6 text-center josefin-sans">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center backdrop-blur-lg bg-black/30 rounded-l-3xl rounded-r-3xl px-6 py-3 shadow-lg border border-white/10">
+        <div className="flex justify-between items-center backdrop-blur-lg bg-black/30 rounded-lg px-6 py-3 shadow-lg border border-white/10">
           <a
             href="/"
-            className="text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors"
+            className="text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors josefin-slab"
           >
             Silicon
           </a>
@@ -57,7 +57,7 @@ const Nav = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-white/80 hover:text-white px-4 py-2 rounded-full transition-all duration-300 hover:bg-white/10 font-semibold josefin-sans"
+                className="text-white/80 hover:text-white px-4 py-2 rounded-full transition-all duration-300  font-semibold josefin-sans"
               >
                 {item.name}
               </a>

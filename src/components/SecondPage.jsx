@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { IoSchool, IoBriefcase, IoRocket } from "react-icons/io5";
+import { IoSchool, IoBriefcase, IoRocket, IoLanguage } from "react-icons/io5";
 import img from "../assets/AvatarImg_2.jpg";
 import { secondPageParagraph } from "../Constant";
 
 const SecondPage = () => {
   const skills = [
-    { name: "Web Development", level: 95 },
+    { name: "Programming", level: 95 },
+    { name: "Hacking", level: 62 },
     { name: "Debugging", level: 75 },
+    { name: "Logical Thinking", level: 93 },
     { name: "Problem Solving", level: 89 },
   ];
 
@@ -15,18 +17,26 @@ const SecondPage = () => {
     {
       icon: IoSchool,
       title: "Education",
-      description: "Still a Student 😊!",
+      description: "A Student 😊!",
     },
     {
       icon: IoBriefcase,
       title: "Experience",
-      description: "4+ years in Full Stack Development",
+      description: "4+ years in Full Stack Dev",
     },
     {
       icon: IoRocket,
       title: "Projects",
       description: "5+ successful projects delivered",
     },
+  ];
+
+  const languages = [
+    { name: "English ( Fluent )", level: 84 },
+    { name: "Hindi ( Native )", level: 92 },
+    { name: "Bengali ( Native )", level: 96 },
+    { name: "Odia ( Clear )", level: 60 },
+    { name: "Telugu ( Learning )", level: 30 },
   ];
 
   return (
@@ -93,6 +103,36 @@ const SecondPage = () => {
                 ))}
               </ul>
             </motion.div>
+
+            {/* Languages Section */}
+            <motion.div
+              className="bg-gray-800/60 p-6 rounded-xl shadow-lg backdrop-blur-lg"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+            >
+              <h2 className="text-2xl font-semibold mb-4 text-teal-400">
+                Languages
+              </h2>
+              <div className="space-y-4">
+                {languages.map((language, index) => (
+                  <div key={index}>
+                    <div className="flex justify-between items-center mb-1">
+                      <span className="font-medium text-gray-300">
+                        {language.name}
+                      </span>
+                      <span className="text-teal-400">{language.level}%</span>
+                    </div>
+                    <div className="w-full bg-gray-700 h-2 rounded">
+                      <div
+                        className="bg-gradient-to-r from-teal-400 to-blue-500 h-2 rounded"
+                        style={{ width: `${language.level}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
 
           {/* Right Column */}
@@ -118,7 +158,7 @@ const SecondPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h2 className="text-2xl font-semibold mb-4 text-teal-400">
-                Skills
+                Expertise
               </h2>
               <div className="space-y-4">
                 {skills.map((skill, index) => (

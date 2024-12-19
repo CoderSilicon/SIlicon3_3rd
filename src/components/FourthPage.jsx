@@ -29,7 +29,7 @@ const FourthPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Spoken & Prog. Langs
+              Tools
             </motion.h1>
             <motion.div
               className="h-1 w-16 lg:w-20 bg-[#38B2AC]"
@@ -39,66 +39,8 @@ const FourthPage = () => {
             />
           </div>
 
-          {/* Spoken Languages Section */}
-          <div className="my-12">
-            <h2 className="text-2xl font-semibold text-[#38B2AC] monsterrat mb-6 text-center">
-              Spoken Languages
-            </h2>
-            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-              {[
-                {
-                  language: "English",
-                  demo: "Hello! How are you?",
-                  fluency: "Fluent",
-                },
-                {
-                  language: "Hindi",
-                  demo: "नमस्ते! आप कैसे हैं?",
-                  fluency: "Fluent",
-                },
-                {
-                  language: "Bhojpuri",
-                  demo: "प्रणाम! रउवा कइसन बानी?",
-                  fluency: "Fluent",
-                },
-
-                {
-                  language: "Bengali",
-                  demo: "নমস্কার! আপনি কেমন আছেন?",
-                  fluency: "Native",
-                },
-                {
-                  language: "Odia",
-                  demo: "ନମସ୍କାର! ଆପଣ କେମିତି ଅଛନ୍ତି?",
-                  fluency: "Intermediate",
-                },
-                {
-                  language: "Telugu",
-                  demo: "నమస్కారం! మీరు ఎలా ఉన్నారు?",
-                  fluency: "Basic",
-                },
-              ].map((lang, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: -50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1 }}
-                >
-                  <LanguageCard
-                    language={lang.language}
-                    demo={lang.demo}
-                    fluency={lang.fluency}
-                  />
-                </motion.div>
-              ))}
-            </div>
-          </div>
-
           {/* Programming Languages Section */}
           <div className="my-12">
-            <h2 className="text-2xl font-semibold text-[#38B2AC] monsterrat mb-6 text-center">
-              Programming Languages & Tools
-            </h2>
             <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
               {[
                 {

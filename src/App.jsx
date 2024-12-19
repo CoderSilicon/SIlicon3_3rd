@@ -8,7 +8,7 @@ import SecondPage from "./components/SecondPage";
 import ThirdPage from "./components/ThirdPage";
 import FourthPage from "./components/FourthPage";
 import FifthPage from "./components/FifthPage";
-import SixthPage from "./components/SixthPage";
+
 import Footer from "./components/Footer";
 import LastGreet from "./components/lastGreet";
 
@@ -37,8 +37,6 @@ const App = () => {
             <ThirdPage />
             <FourthPage />
             <FifthPage />
-            <SixthPage />
-
             <LastGreet />
             <Footer />
           </main>
