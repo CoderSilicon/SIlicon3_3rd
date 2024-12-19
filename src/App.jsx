@@ -1,14 +1,12 @@
 import ScaleLoader from "react-spinners/ScaleLoader";
 import { useState, useEffect } from "react";
 import FirstPage from "./components/FirstPage";
-
 import Nav from "./components/ui/Nav";
 import "./App.css";
 import SecondPage from "./components/SecondPage";
 import ThirdPage from "./components/ThirdPage";
 import FourthPage from "./components/FourthPage";
 import FifthPage from "./components/FifthPage";
-
 import Footer from "./components/Footer";
 import LastGreet from "./components/lastGreet";
 
