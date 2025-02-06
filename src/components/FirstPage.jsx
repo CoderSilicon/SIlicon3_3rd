@@ -14,10 +14,11 @@ import {
 const FirstPage = () => {
   const [typeEffect] = useTypewriter({
     words: [
-      "Frontend Developer",
-      "Backend Developer",
+      "Full Stack Developer",
+      "Cross-Platform Developer",
       "C/C++ Developer",
       "Python Developer",
+      "Java Developer",
       "UI/UX Designer",
     ],
     typeSpeed: 80,

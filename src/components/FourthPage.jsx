@@ -5,16 +5,24 @@ import {
   RiJavascriptFill,
   RiTailwindCssFill,
 } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs, FaHtml5, FaCss3, FaSass } from "react-icons/fa";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import {
+  FaNodeJs,
+  FaHtml5,
+  FaCss3,
+  FaSass,
+  FaDocker,
+  FaLinux,
+} from "react-icons/fa";
 import { DiJava } from "react-icons/di";
 import {
   TbBrandCpp,
   TbBrandTypescript,
   TbBrandPython,
   TbSql,
+  TbBrandMysql,
 } from "react-icons/tb";
-import { BiLogoDjango } from "react-icons/bi";
+import { BiLogoDjango, BiLogoGoLang, BiLogoPostgresql } from "react-icons/bi";
 
 const FourthPage = () => {
   return (
@@ -76,7 +84,7 @@ const FourthPage = () => {
                 {
                   Icon: TbBrandTypescript,
                   title: "TypeScript",
-                  experience: "Intermediate",
+                  experience: "Advance",
                   color: "text-blue-500",
                 },
                 {
@@ -86,22 +94,28 @@ const FourthPage = () => {
                   color: "text-cyan-400",
                 },
                 {
+                  Icon: FaNodeJs,
+                  title: "Node.js",
+                  experience: "Advance",
+                  color: "text-green-600",
+                },
+                {
+                  Icon: SiExpress,
+                  title: "Express.js",
+                  experience: "Advance",
+                  color: "text-slate-100",
+                },
+                {
                   Icon: RiNextjsFill,
                   title: "Next.js",
-                  experience: "Intermediate",
+                  experience: "Advance",
                   color: "text-white",
                 },
                 {
-                  Icon: TbBrandCpp,
-                  title: "C++",
+                  Icon: SiMongodb,
+                  title: "MongoDB",
                   experience: "Advance",
-                  color: "text-blue-600",
-                },
-                {
-                  Icon: TbBrandPython,
-                  title: "Python",
-                  experience: "Mastered",
-                  color: "text-yellow-400",
+                  color: "text-green-500",
                 },
                 {
                   Icon: TbSql,
@@ -110,16 +124,34 @@ const FourthPage = () => {
                   color: "text-yellow-700",
                 },
                 {
-                  Icon: FaNodeJs,
-                  title: "Node.js",
-                  experience: "Advance",
-                  color: "text-green-600",
+                  Icon: BiLogoPostgresql,
+                  title: "PostgreSQL",
+                  experience: "Intermediate",
+                  color: "text-blue-700",
                 },
                 {
-                  Icon: SiMongodb,
-                  title: "MongoDB",
-                  experience: "Intermediate",
-                  color: "text-green-500",
+                  Icon: TbBrandMysql,
+                  title: "MySQL",
+                  experience: "Advance",
+                  color: "text-blue-400",
+                },
+                {
+                  Icon: TbBrandPython,
+                  title: "Python",
+                  experience: "Mastered",
+                  color: "text-yellow-400",
+                },
+                {
+                  Icon: BiLogoGoLang,
+                  title: "GoLang",
+                  experience: "Advance",
+                  color: "text-blue-500",
+                },
+                {
+                  Icon: TbBrandCpp,
+                  title: "C++",
+                  experience: "Advance",
+                  color: "text-blue-600",
                 },
                 {
                   Icon: DiJava,
@@ -127,11 +159,18 @@ const FourthPage = () => {
                   experience: "Intermediate",
                   color: "text-red-600",
                 },
+                ,
                 {
-                  Icon: BiLogoDjango,
-                  title: "Django",
+                  Icon: FaDocker,
+                  title: "Docker",
                   experience: "Intermediate",
-                  color: "text-green-700",
+                  color: "text-blue-500",
+                },
+                {
+                  Icon: FaLinux,
+                  title: "Linux",
+                  experience: "Mastered",
+                  color: "text-black-700",
                 },
               ].map((skill, index) => (
                 <motion.div
